@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table</title>
+
+    <style>
+
+        #content{
+            margin: auto;
+            width:800px;
+        }
+        table {
+            border-collapse: collapse;
+            width: inherit;
+        }
+
+        tr{
+            background: #fff;
+            border-bottom: 1px solid #000;
+        }
+        table tr:nth-child(even) {
+            background: #eeeeff;
+        }
+        td {
+            padding: 5px;
+            text-align: center;
+        }
+        #myframe {
+            margin: auto;
+            width: inherit;
+            height: inherit;
+        }
+        #myframe iframe {
+            border: 0;
+            width: inherit;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+<div id="content">
+    <table>
+        <caption>Статистика</caption>
+        <tr>
+            <td>2015</td>
+            <td>Opera</td>
+            <td>Mozila</td>
+            <td>Chrome</td>
+            <td>Safari</td>
+            <td>IE</td>
+        </tr>
+        <tr>
+            <td>Mounth 01</td>
+            <td>23</td>
+            <td>65</td>
+            <td>87</td>
+            <td>87</td>
+            <td>Mounth 05</td>
+        </tr>
+        <tr>
+            <td>Mounth 02</td>
+            <td>45</td>
+            <td>23</td>
+            <td>23</td>
+            <td>43</td>
+            <td>34</td>
+        </tr>
+        <tr>
+            <td>Mounth 03</td>
+            <td>12</td>
+            <td>34</td>
+            <td>34</td>
+            <td>12</td>
+            <td>87</td>
+        </tr>
+        <tr>
+            <td>Mounth 04</td>
+            <td>13</td>
+            <td>34</td>
+            <td>12</td>
+            <td>12</td>
+            <td>65</td>
+        </tr>
+        <tr>
+            <td>Mounth 05</td>
+            <td>02</td>
+            <td>03</td>
+            <td>03</td>
+            <td>04</td>
+            <td>05</td>
+        </tr>
+    </table>
+    <div id="myframe">
+        <iframe  src="02-imgs.html" frameborder="0"></iframe>
+    </div>
+    <br>
+</div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+
+@import url("additional-style.css");
+
+p {
+    font-size: 20px;
+}
+
+.foo > .bar-1::first-line {
+    color: red;
+}
+
+.foo [class="bar-4"] {
+    color: greenyellow;
+}
+
+.foo li {
+    padding-bottom: 20px;
+    font-size: 40px;
+    vertical-align: middle;
+    list-style-type: circle;
+}
+.foo a:link {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    transition: font-size 500ms;
+}
+.foo a:hover {
+    font-size: 40px;
+}
+
+

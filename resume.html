@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8, maximum-scale=1.0" >
+    <title>Резюме</title>
+    <style>
+        html {
+            margin:0;
+            padding: 0;
+            font-family: Arial;
+        }
+        body > * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            background: darkgrey; /* For browsers that do not support gradients */
+            background: -webkit-radial-gradient(circle, #bbbbbb, #3050aa); /* Safari */
+            background: -o-radial-gradient(circle, #bbbbbb, #3056a0); /* Opera 11.6 to 12.0 */
+            background: -moz-radial-gradient(circle, #bbbbbb, #3056a0); /* Firefox 3.6 to 15 */
+            background: radial-gradient(circle, #fff, #3050aa); /* Standard syntax */
+        }
+        h1 {
+            font-size:1.8em;
+        }
+
+        h2 {
+            font-size:1.3em;
+        }
+
+        h3 {
+            font-size:1.1em;
+        }
+
+        a:link {
+            color: #3050aa;
+        }
+        a:visited {
+            color: #404088;
+        }
+        #content {
+
+            background: white;
+            padding: 25px;
+            margin: 60px auto;
+            width: 716px;
+            box-shadow: 2px 2px 10px #333,
+                        0px 0px 50px #fff;
+        }
+        #menu {
+            position: fixed;
+            height: 30px;
+            top:0;
+            left: 0;
+            vertical-align: middle;
+            width: 100%;
+            background: rgba(255,255,255,0.6);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+        }
+        #menu div {
+            text-align: center;
+            margin: auto;
+            height: inherit;
+            font: 1em Arial, sans-serif;
+            line-height: 30px;
+            padding: 0 40px;
+            font-size: 20px;
+            letter-spacing: 1px;
+            /*background: rgba(0, 0, 0, 0.9);*/
+                    /*#7999af;*/
+            border-right: 1px solid rgba(255, 255, 255, 0.8);
+            border-left: 1px solid rgba(255, 255, 255, 0.8);
+            color: rgba(255, 255, 255, 0.8);
+            width: 120px;
+            /*box-shadow: 2px 2px 5px #333;*/
+        }
+        .head {
+            display: block;
+            width: 100%;
+            margin-bottom: 30px;
+        }
+        #content h1 {
+            display: inline-block;
+        }
+        .head  h2 {
+            display: inline-block;
+
+        }
+        .photo {
+            float: right;
+            margin: 30px 10px 15px 5px;
+            width: 185px;
+            height: 280px;
+            overflow: hidden;
+            box-shadow: 10px 10px 20px black;
+        }
+        .photo img{
+            margin-left: 0;
+            width: 196px;
+            height: 280px;
+            -webkit-transition: all 1s ease;
+            -moz-transition: all 1s ease;
+            -o-transition: all 1s ease;
+            -ms-transition: all 1s ease;
+            transition: all 1s ease;
+        }
+        .photo img:hover {
+            margin-left: -25px;
+            width: 220px;
+            height: 314px;
+        }
+        #content address {
+            margin-top: 15px;
+            margin-bottom: 30px;
+
+        }
+        #content  address > div {
+            /*margin-left: 80px;*/
+            margin-top: 10px;
+        }
+        #content  address img {
+            width: 36px;
+        }
+        #content div > a:hover {
+
+            -webkit-filter:contrast(1.2);
+            filter: contrast(1.2);
+        }
+
+        #content > ul {
+            margin-bottom: 2em;
+        }
+        #content li {
+            margin-bottom: 0.2em;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+        .list--clean {
+            list-style: none;
+        }
+        .maketab{
+            margin-left: 1.2em;
+        }
+
+        #exp-table {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+        #exp-table tr td:first-child {
+            width: 120px;
+        }
+        #footer{
+            margin: 0;
+            left: 0;
+            bottom: 0;
+            min-width: 768px;
+            width: 100%;
+            text-align: center;
+            background: rgba(255,255,255,0.6);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+        }
+        #footer > div {
+            width: 768px;
+            color: rgba(255, 255, 255, 0.9);
+            margin: auto;
+            padding:10px;
+
+        }
+
+            /* FOR ADDs on free Hosting :) */
+        #ho_adv {
+            display: none !important;
+        }
+    </style>
+</head>
+<body>
+    <nav id="menu">
+        <div>Резюме</div>
+    </nav>
+    <article id="content">
+
+        <div class="head">
+            <h1>Линник Вячеслав Александрович</h1>
+            <div class="photo">
+                <img id="myphoto" src="resume-my_photo.jpg"  alt="моя фотография">
+            </div>
+            <address>
+                Дата рождения: 24 января 1989<br>
+                Место жительства: Киев, Оболонский район <br>
+                Телефон: (050) 800-59-58<br>
+                Эл. почта: <a href="mailto:vyacheslav.lynnyk@gmail.com">vyacheslav.lynnyk@gmail.com</a>
+                <div>
+                    <a href="http://vk.com/id2499854"><img src="pics/vk.png" alt=""></a>
+                    <a href="https://github.com/LitterPapmasa"><img src="pics/github.png" alt=""></a>
+                    <a href="https://plus.google.com/113741730892241979715/about">
+                        <img src="pics/google_plus.png" alt="">
+                    </a>
+                </div>
+            </address>
+            <h2 class="text-center">
+                Цель: Занять должность «Junior PHP developer»<br>
+                и идти по пути совершенствования.
+            </h2>
+        </div>
+
+        <h3>Ключевая информация</h3>
+        <p class="maketab"><strong>Знания:</strong></p>
+        <ul>
+            <li>PHP (ООП), MySQL;</li>
+            <li>JavaScript, JS/jQuery, HTML/CSS, Ajax;</li>
+            <li>Git;</li>
+            <li>less, gulp;</li>
+            <li>базовый уровнь Yii 2 Framework, AngularJS;</li>
+            <li>Опытный пользователь Windows, Linux, Mac;</li>
+            <li>навыки работы с Adobe (Photoshop, Illustrator, Indesign)</li>
+        </ul>
+
+        <h3>Образование</h3>
+        <ul class="list--clean">
+            <li>Высшее</li>
+            <li>с 09.2005 по 07.2011</li>
+            <li>НТУУ КПИ, специализация -  физическое материалознавство, Киев.</li>
+            <li>Защитил диплом специалиста.</li>
+        </ul>
+
+        <h3>Дополнительно</h3>
+        <ul class="list--clean">
+            <li>в 2011 - закончил курсы английского “Tower”, intermediate level;</li>
+        </ul>
+
+        <h3>Ключевые достижения</h3>
+        <ul>
+            <li>
+                Пол года назад принимал участие в проекте
+                <a href="http://qastartup.com.ua">qastartup.com.ua</a>
+                (есть <a href="https://github.com/LitterPapmasa/qa.startup">исходники</a>).
+                Мной сделано 4 формы обратной
+                связи и 1-на форма отзывов. Детальней:
+                <ul>
+                    <li>
+                        В формах идет проверка на валидацию введенных данных как на стороне клиента так и на
+                        стороне сервера.
+                    </li>
+                    <li>После отправки формы обратной связи на почту приходит письмо с введенными данными.</li>
+                    <li>
+                        Для формы отзывов создана база данных, которая хранит все, что ввел и выбрал пользователь.
+                    </li>
+                    <li>
+                        Также сделал возможность при заполнении отзыва подгрузить фотографию. При выборе картинки
+                        и отправки отзыва, картинка пропорционально ужимается до нужных размеров и сохраняется.
+                    </li>
+                    <li>Возможность указывать рейтинг курса звездочками.</li>
+                    <li>Обновление данных после отправки отзыва идет по технологии AJAX.</li>
+                    <li>
+                        Пагинация страниц, формируется от количества отзывов и установленного количественного
+                        значения на странице.
+                    </li>
+                </ul>
+            </li>
+            <li>Делал много простых веще для себя
+                <ul>
+                    <li>
+                        <a href="https://github.com/LitterPapmasa/simple-guestbook">simple-guestbook</a>
+                         - (самый простой пример работы с
+                        базой данных)
+                    </li>
+                    <li>
+                        <a href="https://github.com/LitterPapmasa/snake">snake</a>
+                        - игра змейка (планировал еще дорабатывать)</li>
+                    <li>
+                        <a href="https://github.com/LitterPapmasa/brute-force">brute-force</a>
+                        - (перебор символов)</li>
+                    <li>
+                        <a href="https://github.com/LitterPapmasa/news/tree/master/news">news</a>
+                        - (мини фреймворк, модель MVC)</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h3>Опыт работы</h3>
+        <table id="exp-table">
+            <tr>
+                <td rowspan="2">с 23.02.2012 по сейчас</td>
+                <td>
+                    IT-Support (специалист технической поддержки)
+                    в <a href="http://agl-media.com">Atlantic Group</a> <br> ( до 520 сотрудников).
+                </td>
+            </tr>
+            <tr>
+                <td>
+                        Техническая поддержка пользователей. Парк свыше 500 рабочих станций.
+                        Написание внутреннего, вспомогательного сайта для IT-отдела.
+                </td>
+            </tr>
+        </table>
+
+        <h3>О себе</h3>
+        <ul>
+            <li>Не имею вредных привычек;</li>
+            <li>Люблю разного рода активности (бег, велопрогулки, плаванье);</li>
+        </ul>
+    </article>
+    <footer id="footer">
+        <div><strong>Линник Вячеслав &copy; 2016 </strong></div>
+    </footer>
+
+</body>
+</html>
